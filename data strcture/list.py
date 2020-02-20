@@ -16,7 +16,7 @@ class linked_list:
         cur.next = new_node
 
     def length(self):
-        cur = self.head()
+        cur = self.head
         total = 0
         while cur.next != None:
             total += 1
@@ -40,14 +40,30 @@ class linked_list:
         while True:
             cur_node = cur_node.next
             if cur_index == index:
+                return cur_node.data
+            cur_index += 1
+
+    def erase(self, index):
+        if index >= self.length():
+            print('Error: Erase index out of range')
+            return None
+        cur_index = 0
+        cur_node = self.head
+        
 
 
 
+# Test area
 my_list = linked_list()
 
 my_list.append(1)
 my_list.append(2)
+my_list.append(3)
+my_list.append(4)
+
 
 my_list.display()
+
+print (my_list.get(10))
 
 
