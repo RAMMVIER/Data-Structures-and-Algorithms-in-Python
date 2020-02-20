@@ -49,7 +49,13 @@ class linked_list:
             return None
         cur_index = 0
         cur_node = self.head
-        
+        while True:
+            last_node = cur_node
+            cur_node = cur_node.next
+            if cur_index == index:
+                last_node.next = cur_node.next
+                return
+            cur_index += 1
 
 
 
@@ -61,9 +67,7 @@ my_list.append(2)
 my_list.append(3)
 my_list.append(4)
 
+my_list.erase(2)
 
 my_list.display()
-
-print (my_list.get(10))
-
 
