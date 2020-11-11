@@ -16,4 +16,4 @@ def hanoi(n, a, b, c):
         hanoi(n - 1, b, a, c)
 
 # test
-hanoi(3, 'A', 'B', 'C')
+hanoi(7, 'A', 'B', 'C')
