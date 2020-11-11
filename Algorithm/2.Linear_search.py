@@ -4,8 +4,8 @@
 # 时间复杂度：O(n)
 
 
-def linear_search(data_list, val):
-    for index, v in enumerate(data_list):
+def linear_search(li, val):
+    for index, v in enumerate(li):
         if v == val:
             return index
     else:
