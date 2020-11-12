@@ -18,5 +18,5 @@ def binary_search(li, val):
 
 
 # test
-test = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-print(binary_search(test, 7))
+test_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(binary_search(test_list, 7))
