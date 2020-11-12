@@ -13,5 +13,5 @@ def linear_search(li, val):
 
 
 # test
-data = [5, 10, 14, 18, 29, 45, 73]
-print(linear_search(data, 45))
+test_list = [5, 10, 14, 18, 29, 45, 73]
+print(linear_search(test_list, 45))
