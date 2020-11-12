@@ -10,19 +10,18 @@ import random
 
 def bubble_sort(li):
     for i in range(len(li) - 1):            # 第i次遍历
-        exchange = False
+        exchange = False                    # 设置标志位，如果未发生排序，则退出循环
         for j in range(len(li) - i - 1):
             if li[j] > li[j + 1]:
                 li[j], li[j + 1] = li[j + 1], li[j]
                 exchange = True
-        print(li)
         if not exchange:
             return
-
+        print(li)
 
 # test
 # test_list = [random.randint(0, 10000) for i in range(10)]
 test_list = [4, 5, 6, 1, 2, 3]
-print(test_list)
+# print(test_list)
 bubble_sort(test_list)
-print(test_list)
+# print(test_list)
