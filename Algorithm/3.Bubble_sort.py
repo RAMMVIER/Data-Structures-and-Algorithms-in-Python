@@ -6,6 +6,7 @@
 
 import random
 
+
 def bubble_sort(li):
     for i in range(len(li) - 1):            # 第i次遍历
         for j in range(len(li) - i - 1):
@@ -14,7 +15,7 @@ def bubble_sort(li):
 
 
 # test
-li = [random.randint(0, 10000) for i in range(10)]
-print(li)
-bubble_sort(li)
-print(li)
+test_list = [random.randint(0, 10000) for i in range(10)]
+print(test_list)
+bubble_sort(test_list)
+print(test_list)
