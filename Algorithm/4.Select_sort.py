@@ -12,8 +12,11 @@ def select_sort_simple(li):                # 时间复杂度：O(n^2)
 
 
 def select_sort(li):
-
-
+    for i in range(len(li) - 1):        # i为遍历次数，最后一个元素必是最大值，无需排列，因此为n-1次遍历
+        min_location = i                # 记录当前最小值的位置，便于进行对比，每次循环开始时，设置为当前循环的起点i
+        for j in range(i + 1, len(li)):
+            if li[j] < li[min_location]:
+                min_location = j
 
 # test
 test_list = [3, 4, 6, 7, 8, 1, 9, 2, 5]
