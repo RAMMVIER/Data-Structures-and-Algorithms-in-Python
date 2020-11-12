@@ -12,7 +12,7 @@ def select_sort_simple(li):                # 时间复杂度：O(n^2)
 
 
 def select_sort(li):
-    
+
 
 
 # test
