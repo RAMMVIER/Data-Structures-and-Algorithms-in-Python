@@ -21,8 +21,8 @@ def partition(li, left, right):
 def quick_sort(li, left, right):
     if left < right:                                    # 至少两个元素
         mid = partition(li, left, right)
-    quick_sort(li, left, mid - 1)                       # 递归完成左侧排序
-    quick_sort(li, mid + 1, right)                      # 递归完成右侧排序
+        quick_sort(li, left, mid - 1)                   # 递归完成左侧排序
+        quick_sort(li, mid + 1, right)                  # 递归完成右侧排序
 
 
 # test
