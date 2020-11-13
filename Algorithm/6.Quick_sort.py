@@ -14,4 +14,10 @@ def partition(li, left, right):
         while left < right and li[left] <= tmp:         # 从左侧找比p大的数
             left += 1                                   # 右移一位
         li[right] = li[left]                            # 将左边比p大的数写入右边空位
-    li[left] = tmp
+    li[left] = tmp                                      # 结束循环后，将p归位
+
+
+# test
+test_list = [5, 7, 4, 6, 3, 1, 2, 9, 8]
+partition(test_list, 0, len(test_list) - 1)
+print(test_list)
