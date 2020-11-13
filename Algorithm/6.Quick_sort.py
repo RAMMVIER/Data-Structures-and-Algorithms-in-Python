@@ -15,6 +15,14 @@ def partition(li, left, right):
             left += 1                                   # 右移一位
         li[right] = li[left]                            # 将左边比p大的数写入右边空位
     li[left] = tmp                                      # 结束循环后，将p归位
+    return left
+
+
+def quick_sort(li, left, right):
+    if left < right:                                    # 至少两个元素
+        mid = partition(li, left, right)
+    quick_sort(li, left, mid - 1)                       # 递归完成左侧排序
+    quick_sort(li, mid + 1, right)                      # 递归完成右侧排序
 
 
 # test
