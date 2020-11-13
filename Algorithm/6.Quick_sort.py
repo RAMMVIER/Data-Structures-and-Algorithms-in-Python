@@ -3,6 +3,8 @@
 使用partition函数，先从右侧开始，right指针指向的数如果小于p，则填入p的空位，
 left指针指向的数如果大于p，则填入之前right的一个空位
 """
+# 时间复杂度：O(nlogn)
+# 快排最坏情况：
 
 
 def partition(li, left, right):
