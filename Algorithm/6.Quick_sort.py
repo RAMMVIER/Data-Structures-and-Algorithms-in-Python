@@ -10,5 +10,8 @@ def partition(li, left, right):
     while left < right:                                 # 当left = right时，说明仅剩一个空位，应将p插入空位
         while left < right and li[right] >= tmp:        # 从右侧找比p小的数
             right -= 1                                  # 左移一位
-        li[left] = li[right]                            # 将比p小的数写入空位
+        li[left] = li[right]                            # 将右边比p小的数写入左边空位
+        while left < right and li[left] <= tmp:         # 从左侧找比p大的数
+            left += 1                                   # 右移一位
+        li[right] = li[left]                            # 将左边比p大的数写入右边空位
     li[left] = tmp
