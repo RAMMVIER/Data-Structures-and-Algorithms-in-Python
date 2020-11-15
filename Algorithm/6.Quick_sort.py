@@ -33,3 +33,4 @@ test_list = [5, 7, 4, 6, 3, 1, 2, 9, 8]
 # partition(test_list, 0, len(test_list) - 1)
 quick_sort(test_list, 0, len(test_list) - 1)
 print(test_list)
+
