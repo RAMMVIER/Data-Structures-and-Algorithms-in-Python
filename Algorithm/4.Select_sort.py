@@ -26,3 +26,4 @@ def select_sort(li):
 test_list = [3, 4, 6, 7, 8, 1, 9, 2, 5]
 # print(select_sort_simple(test_list))
 print(select_sort(test_list))
+
