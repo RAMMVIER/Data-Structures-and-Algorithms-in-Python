@@ -34,4 +34,9 @@ def sift(li, low, high):
             li[i] = li[j]
             i = j                                                   # 向下一层
             j = 2 * i + 1                                           # 向下一层
-
+        else:                                                       # tmp更大，将tmp放在i的位置
+            li[i] = tmp
+            break
+    else:
+        li[i] = tmp                                                 # 将tmp放在叶子节点
+        
