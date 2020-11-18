@@ -14,3 +14,24 @@
 #   3.去掉堆顶，将堆最后一个元素放到堆顶，此时通过一次调整重新使堆有序
 #   4.堆顶元素为第二大元素
 #   5.重复步骤3，直到堆变空
+
+
+# 调整
+def sift(li, low, high):
+    """
+    :param li: 列表
+    :param low: 堆的根元素
+    :param high: 堆的最后一个元素
+    :return:
+    """
+    i = low                                                         # 最开始指向根节点
+    j = 2 * i + 1                                                   # 最开始指向左孩子节点
+    tmp = li[low]                                                   # 存储堆顶
+    while j <= high:                                                # 只要j的位置有节点，持续循环
+        if j + 1 <= high and li[j + 1] > li[j]:                     # 右孩子节点存在且大于左
+            j = j + 1                                               # 指向右孩子节点
+        if li[j] > tmp:
+            li[i] = li[j]
+            i = j                                                   # 向下一层
+            j = 2 * i + 1                                           # 向下一层
+
