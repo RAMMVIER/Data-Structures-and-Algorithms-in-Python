@@ -50,7 +50,8 @@ def heap_sort(li):
 
     for i in range(n - 1, -1, -1):
         # i指向当前堆的最后一个元素
-
+        li[0], li[i] = li[i], li[0]
+        sift(li, 0, i - 1)                                          # i-1是新的high
 
 
 # test
