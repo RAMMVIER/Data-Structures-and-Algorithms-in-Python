@@ -43,3 +43,17 @@ def sift(li, low, high):
 
 def heap_sort(li):
     n = len(li)
+    for i in range((n - 2) // 2, -1, -1):                           # 从最后一个非叶子节点逆序遍历到根节点
+        # i表示建堆时调整的部分的根的下标，high用于判断j是否越界
+        sift(li, i, n - 1)
+        # 建堆完成
+
+    for i in range(n - 1, -1, -1):
+        # i指向当前堆的最后一个元素
+
+
+
+# test
+test_list = [0, 5, 9, 2, 3, 1, 4, 7, 6, 8]
+heap_sort(test_list)
+print(test_list)
