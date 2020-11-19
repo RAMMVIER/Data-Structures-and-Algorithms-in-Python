@@ -4,6 +4,8 @@
 #   3.遍历列表所有元素后，倒序弹出堆顶
 
 
+import random
+
 # 小根堆调整
 def sift(li, low, high):
     i = low
@@ -34,5 +36,12 @@ def topk(li, k):
             sift(heap, 0, k - 1)
     # 排序，逆序出数
     for i in range(k - 1, -1, -1):
-        li[0], li[i] = li[i], li[0]
+        heap[0], heap[i] = heap[i], heap[0]
         sift(heap, 0, i - 1)
+    return heap
+
+
+# test
+test_list = list(range(1000))
+random.shuffle(test_list)
+print(topk(test_list, 10))
