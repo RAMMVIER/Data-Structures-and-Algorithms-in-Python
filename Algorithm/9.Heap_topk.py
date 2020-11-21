@@ -7,6 +7,7 @@
 
 import random
 
+
 # 小根堆调整
 def sift(li, low, high):
     i = low
