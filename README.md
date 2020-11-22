@@ -18,3 +18,4 @@ Good Luck, Have Fun
 * [9. Top-k Solution](./Algorithm/9.Heap_topk.py)
 * [10. Merge Sort](./Algorithm/10.Merge_sort.py)
 
+## Notes
