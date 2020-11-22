@@ -8,7 +8,7 @@ def merge(li, low, mid, high):
     :param low: 列表第一个元素的下标
     :param mid: 第一段有序列表中最后一个元素的下标
     :param high: 列表最后一个元素的下标
-    :return:
+    :return: void
     """
 
     i = low
@@ -24,9 +24,18 @@ def merge(li, low, mid, high):
             j += 1
     # while执行结束后，两个有序列表必有一个没有元素了
 
-    # 第一部分有元素
+    # 如果第一部分害有元素
     while i <= mid:
         ltmp.append(li[i])
         i += 1
+    # 如果第二部分害有元素
+    while j <= high:
+        ltmp.append(li[j])
+        j += 1
 
-    
+    li[low:high + 1] = ltmp
+
+
+# test
+test_list = [2, 4, 5, 7, 1, 3, 6, 8]
+
