@@ -1,5 +1,7 @@
 # Data Structure and Algorithm in Python
-Data structures and algorithms 101
+Data structures and algorithms 101<br>
+
+Good Luck, Have Fun
 
 ## Data structure
 
