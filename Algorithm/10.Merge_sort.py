@@ -7,6 +7,7 @@
 #   3. 合并：将两个有序列表合并，列表逐渐增大
 
 
+# 合并过程
 def merge(li, low, mid, high):
     """
     :param li: 输入的原始列表
@@ -41,7 +42,14 @@ def merge(li, low, mid, high):
     li[low:high + 1] = ltmp
 
 
+def merge_sort(li, low, high):
+    if low < high:                                  # 至少有两个元素，递归
+        mid = (low + high) // 2
+        merge_sort(li, low, mid)
+        merge_sort(li, mid + 1, high)
+        merge(li, low, mid, high)
+
+
 # test
-test_list = [2, 4, 5, 7, 1, 3, 6, 8]
-merge(test_list, 0, 3, 7)
+test_list = 
 print(test_list)
