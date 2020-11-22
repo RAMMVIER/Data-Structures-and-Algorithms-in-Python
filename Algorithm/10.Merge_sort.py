@@ -7,6 +7,8 @@
 #   3. 合并：将两个有序列表合并，列表逐渐增大
 
 
+import random
+
 # 合并过程
 def merge(li, low, mid, high):
     """
@@ -51,5 +53,8 @@ def merge_sort(li, low, high):
 
 
 # test
-test_list = 
+test_list = list(range(1000))
+random.shuffle(test_list)
+print(test_list)
+merge_sort(test_list, 0, len(test_list) - 1)
 print(test_list)
