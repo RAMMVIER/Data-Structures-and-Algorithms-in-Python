@@ -9,6 +9,7 @@
 
 import random
 
+
 # 合并过程
 def merge(li, low, mid, high):
     """
