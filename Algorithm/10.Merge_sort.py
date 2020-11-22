@@ -38,4 +38,5 @@ def merge(li, low, mid, high):
 
 # test
 test_list = [2, 4, 5, 7, 1, 3, 6, 8]
-
+merge(test_list, 0, 3, 7)
+print(test_list)
