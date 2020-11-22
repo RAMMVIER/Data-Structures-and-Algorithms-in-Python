@@ -6,9 +6,13 @@
 #   2. 终止条件：一个元素必然是有序的
 #   3. 合并：将两个有序列表合并，列表逐渐增大
 
+# 时间复杂度：O(nlogn)
+#   一次归并复杂度为O(n)
+#   递归层数为logn层
+# 空间复杂度：O(n)
+
 
 import random
-
 
 # 合并过程
 def merge(li, low, mid, high):
