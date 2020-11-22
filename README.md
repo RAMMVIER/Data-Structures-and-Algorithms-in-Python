@@ -16,4 +16,5 @@ Good Luck, Have Fun
 * [7. Heap Sort](./Algorithm/7.Heap_sort.py)
 * [8. Heap Sort (Python Build-in)](./Algorithm/8.Heap_sort_buildin.py)
 * [9. Top-k Solution](./Algorithm/9.Heap_topk.py)
+* [10. Merge Sort](./Algorithm/10.Merge_sort.py)
 
