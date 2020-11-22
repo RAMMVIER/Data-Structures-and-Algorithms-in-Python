@@ -1,5 +1,5 @@
 # Data Structure and Algorithm in Python
-Data structures and algorithms in Python
+Data structures and algorithms 101
 
 ## Data structure
 
