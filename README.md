@@ -19,3 +19,4 @@ Good Luck, Have Fun
 * [10. Merge Sort](./Algorithm/10.Merge_sort.py)
 
 ## Notes
+* [排序算法小结](./Algorithm/排序算法.md)
