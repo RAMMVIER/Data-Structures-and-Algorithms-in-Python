@@ -34,7 +34,7 @@ def bucket_sort(li, n=100, max_num=10000):
 
 
 # test
-test_list = [random.randint(1, 10000) for i in range(100000)]
+test_list = [random.randint(1, 1000) for i in range(10000)]
 print(test_list)
 test_list = bucket_sort(test_list)
 print(test_list)
