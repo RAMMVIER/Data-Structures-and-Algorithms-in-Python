@@ -1,5 +1,6 @@
 # 计数排序：
 
+# 时间复杂度：O(n)
 
 import random
 
@@ -15,7 +16,7 @@ def count_sort(li, max_count=100):
 
 
 # test
-test_list = list(range(100))
-random.shuffle(test_list)
+test_list = [random.randint(0, 100) for _ in range(1000)]
+print(test_list)
 count_sort(test_list)
 print(test_list)
