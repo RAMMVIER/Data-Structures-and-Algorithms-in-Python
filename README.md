@@ -3,9 +3,14 @@ Data structures and algorithms 101<br>
 
 Good Luck, Have Fun
 
+
+
 ## Data structure
 
-## Algorithm
+
+
+## Algorithms
+### Codes
 * [0. hanoi](./Algorithm/0.hanoi.py)
 * [1. Linear Search](./Algorithm/1.Linear_search.py)
 * [2. Binary Search](./Algorithm/2.Binary_search.py)
@@ -21,6 +26,14 @@ Good Luck, Have Fun
 * [12. Count Sort](./Algorithm/12.Count_sort.py)
 * [13. Bucket Sort](./Algorithm/13.Bucket_sort.py)
 * [14. Radix Sort](./Algorithm/14.Radix_sort.py)
+
+### Quiz
+* [Quiz Description](./Algorithm/Test_quiz/Quiz.md)
+* [Q1: Solution 1](./Algorithm/Test_quiz/Q1S1.py)
+* [Q1: Solution 2](./Algorithm/Test_quiz/Q1S2.py)
+* [Q2: Solution 1](./Algorithm/Test_quiz/Q2S1.py)
+* [Q2: Solution 2](./Algorithm/Test_quiz/Q2S2.py)
+
 
 
 ## Notes
