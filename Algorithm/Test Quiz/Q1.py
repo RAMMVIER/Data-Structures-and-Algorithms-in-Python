@@ -2,7 +2,8 @@
 #   s = "anagram", t = "nagaram", return True
 #   s = "rat", t = "car", return False
 
-# 解法：对两个字符串进行排序，将两者对比作为返回值
+# 解法：对两个字符串转化成list进行排序，将两者对比作为返回值
+
 
 def isAnagram(self, s, t):
     """
