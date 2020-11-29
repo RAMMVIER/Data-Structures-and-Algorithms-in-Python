@@ -14,6 +14,9 @@ def searchMatrix(self, matrix, target):
 
     height = len(matrix)
     width = len(matrix[0])
+    if height == 0 or width == 0:
+        return False
+    
     left = 0
     right = width * height - 1
 
