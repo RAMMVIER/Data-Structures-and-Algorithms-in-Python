@@ -28,4 +28,4 @@ def searchMatrix(self, matrix, target):
         else:
             left = mid + 1
     else:
-        return None
+        return False
