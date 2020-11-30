@@ -33,7 +33,8 @@ Good Luck, Have Fun
 * [Q1: Solution 2](./Algorithm/Test_quiz/Q1S2.py)
 * [Q2: Solution 1](./Algorithm/Test_quiz/Q2S1.py)
 * [Q2: Solution 2](./Algorithm/Test_quiz/Q2S2.py)
-
+* [Q3: Solution 1](./Algorithm/Test_quiz/Q3S1.py)
+* [Q3: Solution 2](./Algorithm/Test_quiz/Q3S2.py)
 
 
 ## Notes
