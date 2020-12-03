@@ -8,9 +8,12 @@ Good Luck, Have Fun
 ## Data structure
 ### Codes
 #### Stack
-* [1. Stack](Data_structure/0.Stack.py)
-* [2. Brace Matching](./Data_structure/1.Brace_matching.py)
+* [0. Stack](Data_structure/0.Stack.py)
+* [1. Brace Matching](./Data_structure/1.Brace_matching.py)
 #### Queue
+* [2. Queue](./Data_structure/2.Queue.py)
+* [3. Queue (Python Build-in)](./Data_structure/3.Queue_build-in.py)
+* [4. Implementing the tail command in Linux](./Data_structure/4.Tail_command.py)
 
 
 
