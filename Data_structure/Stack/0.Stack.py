@@ -14,6 +14,9 @@ class Stack:
         else:
             return None
 
+    def is_empty(self):
+        return len(self.stack) == 0
+
 
 # test
 stack = Stack()
