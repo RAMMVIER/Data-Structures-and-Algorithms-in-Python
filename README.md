@@ -8,7 +8,7 @@ Good Luck, Have Fun
 ## Data structure
 ### Codes
 #### Stack
-* [Stack](./Data_structure/Stack/0.Stack.py)
+* [Stack](Data_structure/0.Stack.py)
 * 
 
 ### Notes
