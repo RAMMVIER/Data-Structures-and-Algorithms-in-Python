@@ -30,5 +30,16 @@ def brace_match(s):
         else:
             if stack.is_empty():
                 return False
+            elif stack.get_top() == match[ch]:
+                stack.pop()
             else:
+                return False
+    if stack.is_empty():
+        return True
+    else:
+        return False
 
+
+# test
+test_str = '({[][]{})'
+print(brace_match(test_str))
