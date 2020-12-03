@@ -1,4 +1,4 @@
-# 内置模块队满后将前端自动出队
+# 内置模块队满后将队首自动出队
 
 
 from collections import deque
