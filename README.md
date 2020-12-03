@@ -8,8 +8,11 @@ Good Luck, Have Fun
 ## Data structure
 ### Codes
 #### Stack
-* [Stack](Data_structure/0.Stack.py)
-* 
+* [1. Stack](Data_structure/0.Stack.py)
+* [2. Brace Matching](./Data_structure/1.Brace_matching.py)
+#### Queue
+
+
 
 ### Notes
 * [数据结构](./Data_structure/数据结构.md)

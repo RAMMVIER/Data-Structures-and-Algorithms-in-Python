@@ -22,7 +22,7 @@ class Stack:
 
 
 def brace_match(s):
-    match = {'}':'{', ']':'[', ')':'('}
+    match = {'}': '{', ']': '[', ')': '('}
     stack = Stack()
     for ch in s:
         if ch in {'(', '[', '{'}:
